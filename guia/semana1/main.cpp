@@ -4,7 +4,7 @@
 using namespace std;
 
 // -----------------------------------------------------------------------------
-// (C) Paso por puntero: swap y variaciones
+// (C) Paso por puntero: swap y variaciones     jholix
 // Implementar aquí para usarlas más abajo.
 // -----------------------------------------------------------------------------
 void swap_por_puntero(int* a, int* b) {
