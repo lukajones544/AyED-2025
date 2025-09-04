@@ -2,10 +2,10 @@
 #include <iomanip>
 
 using namespace std;
-
+hola cómo estansss
 // -----------------------------------------------------------------------------
-// (C) Paso por puntero: swap y variaciones     jholix
-// Implementar aquí para usarlas más abajo.
+// (C) Paso por puntero: swap y variaciones     
+// Implementar aquí para usarlas más abajo.s
 // -----------------------------------------------------------------------------
 void swap_por_puntero(int* a, int* b) {
     // TODO: implementar intercambio clásico usando *a, *b y una variable temporal.
