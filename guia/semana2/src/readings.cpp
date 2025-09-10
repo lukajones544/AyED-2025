@@ -13,10 +13,24 @@ float* crear_arreglo(int size) {
 
 void liberar_arreglo(float*& arr) {
     //TODO
+    delete []arr;
+    arr = nullptr;
 }
 
 int cargar_desde_archivo(const std::string& ruta, float* arr, int size) {
     //TODO
+    int cant_valores = 0;
+    std::ifstream archivo(ruta);
+    if(!archivois.open){
+        return 0;
+    }
+    
+    float valor;
+    while(cant_valores < size && archivo >> valor){
+    arr[cant_valores] = valor;
+    cant_valores++;
+    }
+    return cant_valores;
 }
 
 bool guardar_en_archivo(const std::string& ruta, const float* arr, int size) {

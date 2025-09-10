@@ -9,7 +9,7 @@ float* crear_arreglo(int size);
 
 // Libera memoria reservada y pone el puntero en nullptr.
 void liberar_arreglo(float*& arr);
-jhjhjhj
+
 // Carga hasta 'size' valores desde archivo de texto en 'arr'.
 // Retorna la cantidad de valores leídos correctamente.
 int cargar_desde_archivo(const std::string& ruta, float* arr, int size);
