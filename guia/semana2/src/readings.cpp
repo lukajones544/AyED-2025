@@ -57,6 +57,6 @@ for(int i= 0; i < size; i++){
 void imprimir(const float* arr, int size) {
     // TODO
     for(int i= 0; i < size; i++){
-        cout << arr[i] << endl;
+        cout << arr[i] << "\n";
     }
 }
