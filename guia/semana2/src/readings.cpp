@@ -21,7 +21,7 @@ int cargar_desde_archivo(const std::string& ruta, float* arr, int size) {
     //TODO
     int cant_valores = 0;
     std::ifstream archivo(ruta);
-    if(!archivois.open){
+    if(!archivo.is_open){
         return 0;
     }
     
@@ -40,7 +40,7 @@ if(arr == nullptr || size <=0){
     return false;
 }
 std::ofstream archivo(ruta);
-if(!is.open){
+if(!archivo.is_open){
     return false;
 }
 for(int i= 0; i < size; i++){
