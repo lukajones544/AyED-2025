@@ -141,7 +141,7 @@ int main() {
     cout << ptrTemp <<"\n";
     cin>> nuevaTemp;
     *ptrTemp = nuevaTemp;
-    cout << ptrTemp << endl;
+    cout << *ptrTemp << endl;
 
     // -------------------------------------------------------------------------
     // (C) Paso por puntero: pruebas de swap y variantes
