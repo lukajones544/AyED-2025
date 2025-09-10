@@ -40,7 +40,7 @@ if(arr == nullptr || size <=0){
     return false;
 }
 std::ofstream archivo(ruta);
-if(!archivo.is_open){
+if(!is.open){
     return false;
 }
 for(int i= 0; i < size; i++){
@@ -49,12 +49,9 @@ for(int i= 0; i < size; i++){
         archivo.close();
     return false;
     }
+}
     archivo.close();
     return true;
-}
-
-
-
 }
 
 void imprimir(const float* arr, int size) {
