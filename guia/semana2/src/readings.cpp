@@ -40,7 +40,7 @@ if(arr == nullptr || size <=0){
     return false;
 }
 std::ofstream archivo(ruta);
-if(!archivo.is_open){
+if(!archivo.is_open()){
     return false;
 }
 for(int i= 0; i < size; i++){
