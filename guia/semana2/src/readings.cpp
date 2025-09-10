@@ -35,6 +35,26 @@ int cargar_desde_archivo(const std::string& ruta, float* arr, int size) {
 
 bool guardar_en_archivo(const std::string& ruta, const float* arr, int size) {
     // TODO
+
+if(arr == nullptr || size <=0){
+    return false;
+}
+std::ofstream archivo(ruta);
+if(!is.open){
+    return false;
+}
+for(int i= 0; i < size; i++){
+    archivo << arr[i] << "\n";
+    if(!archivo){
+        archivo.close();
+    return false;
+    }
+    archivo.close();
+    return true;
+}
+
+
+
 }
 
 void imprimir(const float* arr, int size) {
