@@ -12,7 +12,7 @@ class Sensor {
         float valor;
         std::string unidad;
     public:
-        Sensor();
+        Sensor(float (0.0));
         Sensor(std::string nombre, float v, std::string unidad);
         std::string getNombre();
         void setNombre(std::string nombreNuevo);
