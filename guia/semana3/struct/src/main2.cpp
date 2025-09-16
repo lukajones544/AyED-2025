@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sensor.h"
+#include "sensor2.h"
 
 using namespace std;
 

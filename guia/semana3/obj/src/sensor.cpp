@@ -1,4 +1,4 @@
-#include "Sensor.h"
+#include "sensor.h"
 #include <iostream>
 #include <fstream>
 #include <iomanip>
