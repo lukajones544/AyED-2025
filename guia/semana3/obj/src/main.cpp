@@ -8,6 +8,13 @@ int main() {
     Sensor* s1 = new Sensor("Temp Cocina", 22.6, "C");
     // s1->nombre = "Temp Cocina";
     cout << s1->getNombre() << endl;
+    cout << s1 ->getValor() << endl;
+    cout << s1 -> getUnidad() << endl;
     // cout << s1->nombre << endl;
+
+    s1 -> mostrar();
+
+    delete s1;
+
     return 0;
 }
